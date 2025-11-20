@@ -227,8 +227,7 @@ button{
 
 <main class="wrap">
 
-  <!-- ========== ROLE CHOICE ========== -->
-  <section id="pageRole" class="card">
+    <section id="pageRole" class="card">
     <h3 class="center-block">Choose your role</h3>
     <div class="vertical-center">
       <button class="primary" id="goStudent">Student</button>
@@ -238,8 +237,7 @@ button{
     </div>
   </section>
 
-  <!-- ========== STUDENT LOGIN ========== -->
-  <section id="pageStudentLogin" class="card hidden">
+    <section id="pageStudentLogin" class="card hidden">
     <div class="topbar">
       <h3>Student Login</h3>
       <button class="ghost" id="backFromStudentLogin">Back</button>
@@ -251,8 +249,7 @@ button{
     </form>
   </section>
 
-  <!-- ========== ADMIN LOGIN ========== -->
-  <section id="pageAdminLogin" class="card hidden">
+    <section id="pageAdminLogin" class="card hidden">
     <div class="topbar">
       <h3>Recruiter / Admin Login</h3>
       <button class="ghost" id="backFromAdminLogin">Back</button>
@@ -264,8 +261,7 @@ button{
     </form>
   </section>
 
-  <!-- ========== STUDENT PAGE ========== -->
-  <section id="pageStudent" class="hidden">
+    <section id="pageStudent" class="hidden">
     <div class="card">
       <div class="topbar">
         <h3>My Profile</h3>
@@ -302,8 +298,7 @@ button{
     </div>
   </section>
 
-  <!-- ========== ADMIN PAGE ========== -->
-  <section id="pageAdmin" class="hidden">
+    <section id="pageAdmin" class="hidden">
     <div class="card">
       <div class="topbar">
         <h3>Post a Job</h3>
@@ -314,7 +309,7 @@ button{
         <div class="row">
           <div class="field"><label>Company</label><input name="company" required></div>
           <div class="field"><label>Role</label><input name="role" required></div>
-        </div>
+          </div>
         <div class="row">
           <div class="field"><label>Type</label>
             <select name="type">
@@ -343,7 +338,7 @@ button{
 
 <script>
   // ======== BASIC HELPERS ========
-  const API_BASE = ""; // e.g. "http://localhost:5000" or leave empty for same-origin
+  const API_BASE = "https://job-application-qtrd.onrender.com"; // UPDATED to use your backend URL
 
   let auth = {
     token: null,
